@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 import math
-from .Circle_Detection import *
-from .Misc_function import *
+from Circle_Detection import *
+from Misc_function import *
 
 def draw_lines(cdstP, accepted_lines):
     if accepted_lines is not None:
@@ -91,7 +91,9 @@ def detect_lines(img_no_text, levels,x_circle,y_circle):
             l = linesP[i][0]
             lines.append([[l[0], l[1]], [l[2], l[3]]])
     # Filtering out a few redundant lines 
+
     accepted_lines = filter_lines(lines,x_circle,y_circle)
+
     draw_lines(cdstP, accepted_lines)
 
     # defining the angle range in which the line line

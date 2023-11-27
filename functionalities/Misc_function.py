@@ -12,12 +12,10 @@ def calc_percentage(range):
         percentage = (range[1]-range[0]+360)/360*100
     return percentage
 
-
 def midpoint(x1, y1, x2, y2):
     x_mid = int((x1 + x2)/2)
     y_mid = int((y1 + y2)/2)
     return (x_mid, y_mid)
-
 
 def distance_formula(x1, y1, x2, y2):
     dist = math.sqrt(pow(x1-x2, 2)+pow(y1-y2, 2))
@@ -93,65 +91,65 @@ def angle_avg(x, y):
             return y-diff
 
 
-# def make_csv(nodes_dict,name):
-#     lst_nodes = []
-#     for i in nodes_dict:
-#         for ele in nodes_dict[i]:
-#             lst_nodes.append(ele)
+def make_csv(nodes_dict,name):
+    lst_nodes = []
+    for i in nodes_dict:
+        for ele in nodes_dict[i]:
+            lst_nodes.append(ele)
 
-#     print(len(lst_nodes))
+    print(len(lst_nodes))
 
-#     fieldname = ['Value', 'Parent']
-#     rows = []
-#     for i in lst_nodes:
-#         temp_dict = {}
-#         temp_dict['Value'] = i.text
-#         # temp_dict['Percentage of graph']=i.percentage
-#         if(i.parent != None):
-#             temp_dict['Parent'] = i.parent.text
-#         else:
-#             temp_dict['Parent'] = 'No parent, is root node'
-#         rows.append(temp_dict)
+    fieldname = ['Value', 'Parent']
+    rows = []
+    for i in lst_nodes:
+        temp_dict = {}
+        temp_dict['Value'] = i.text
+        # temp_dict['Percentage of graph']=i.percentage
+        if(i.parent != None):
+            temp_dict['Parent'] = i.parent.text
+        else:
+            temp_dict['Parent'] = 'No parent, is root node'
+        rows.append(temp_dict)
 
-#     with open(name, 'w', encoding='UTF8', newline='') as f:
-#         writer = csv.DictWriter(f, delimiter='|', fieldnames=fieldname)
-#         writer.writeheader()
-#         writer.writerows(rows)
+    with open(name, 'w', encoding='UTF8', newline='') as f:
+        writer = csv.DictWriter(f, delimiter='|', fieldnames=fieldname)
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 
-# class node:
-#     def __init__(self, text, txt_angle):
-#         self.text = text
-#         self.text_angle = txt_angle
-#         self.parent = None
-#         self.children = []
-#         self.angle_range = None
-#         self.percentage = None
+class node:
+    def __init__(self, text, txt_angle):
+        self.text = text
+        self.text_angle = txt_angle
+        self.parent = None
+        self.children = []
+        self.angle_range = None
+        self.percentage = None
 
-#     def set_angRange(self, range):
-#         self.angle_range = range
-#         self.percentage = calc_percentage(range)
+    def set_angRange(self, range):
+        self.angle_range = range
+        self.percentage = calc_percentage(range)
 
-#     def createNode(self, text, txt_angle, angle_range):
-#         return node(text, txt_angle, angle_range)
+    def createNode(self, text, txt_angle, angle_range):
+        return node(text, txt_angle, angle_range)
 
-#     def print_node(self):
-#         if(self.parent == None):
-#             print('node: ', self.text, ' ', self.text_angle,
-#                   ' ', self.angle_range, ' ', self.children)
-#         else:
-#             print('node: ', self.text, ' ', self.text_angle, ' ',
-#                   self.angle_range, ' ', self.parent.text, ' ', self.percentage)
+    def print_node(self):
+        if(self.parent == None):
+            print('node: ', self.text, ' ', self.text_angle,
+                  ' ', self.angle_range, ' ', self.children)
+        else:
+            print('node: ', self.text, ' ', self.text_angle, ' ',
+                  self.angle_range, ' ', self.parent.text, ' ', self.percentage)
 
-#     def set_children(self, child):
-#         self.children.append(child)
+    def set_children(self, child):
+        self.children.append(child)
 
-#     def set_parent(self, prnt):
-#         self.parent = prnt
+    def set_parent(self, prnt):
+        self.parent = prnt
 
-#     def __repr__(self, level=0):
-#         ret = "\t"*level+repr(self.text)+" : "+repr(self.percentage)+"\n"
-#         for child in self.children:
-#             ret += child.__repr__(level+1)
-#         return ret
+    def __repr__(self, level=0):
+        ret = "\t"*level+repr(self.text)+" : "+repr(self.percentage)+"\n"
+        for child in self.children:
+            ret += child.__repr__(level+1)
+        return ret
