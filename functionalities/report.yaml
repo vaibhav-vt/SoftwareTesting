@@ -1,0 +1,1416 @@
+coverage:
+  all_nodes: 472
+  covered_nodes: 470
+mutation_score: 84.68468468468468
+mutations:
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: -2.5 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: &id001 !!python/module:Misc_function ''
+  mutations:
+  - lineno: 9
+    operator: AOR
+  number: 1
+  status: killed
+  tests_run: 28
+  time: 0.002000570297241211
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 12, in test_perc2\n    self.assertEqual(Misc_function.calc_percentage([9,\
+    \ 18]), 2.5)\nAssertionError: 7.5 != 2.5\n"
+  killer: test_perc2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: AOR
+  number: 2
+  status: killed
+  tests_run: 29
+  time: 0.0010013580322265625
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 12, in test_perc2\n    self.assertEqual(Misc_function.calc_percentage([9,\
+    \ 18]), 2.5)\nAssertionError: 0 != 2.5\n"
+  killer: test_perc2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: AOR
+  number: 3
+  status: killed
+  tests_run: 29
+  time: 0.0009553432464599609
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 12, in test_perc2\n    self.assertEqual(Misc_function.calc_percentage([9,\
+    \ 18]), 2.5)\nAssertionError: 324000 != 2.5\n"
+  killer: test_perc2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: AOR
+  number: 4
+  status: killed
+  tests_run: 29
+  time: 0.0019636154174804688
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 12, in test_perc2\n    self.assertEqual(Misc_function.calc_percentage([9,\
+    \ 18]), 2.5)\nAssertionError: 0.00025 != 2.5\n"
+  killer: test_perc2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: AOR
+  number: 5
+  status: killed
+  tests_run: 29
+  time: 0.0009992122650146484
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 12, in test_perc2\n    self.assertEqual(Misc_function.calc_percentage([9,\
+    \ 18]), 2.5)\nAssertionError: 0.0 != 2.5\n"
+  killer: test_perc2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: AOR
+  number: 6
+  status: killed
+  tests_run: 29
+  time: 0.002000093460083008
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 12, in test_perc2\n    self.assertEqual(Misc_function.calc_percentage([9,\
+    \ 18]), 2.5)\nAssertionError: 6.2230152778611766e-161 != 2.5\n"
+  killer: test_perc2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: AOR
+  number: 7
+  status: killed
+  tests_run: 29
+  time: 0.0019998550415039062
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: 107.5 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 8
+  status: killed
+  tests_run: 28
+  time: 0.001001596450805664
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: -102.49999999999999 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 9
+  status: killed
+  tests_run: 28
+  time: 0.001999378204345703
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: 0 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 10
+  status: killed
+  tests_run: 28
+  time: 0.0010025501251220703
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: 12636000 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 11
+  status: killed
+  tests_run: 28
+  time: 0.000997781753540039
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: 0.00975 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 12
+  status: killed
+  tests_run: 28
+  time: 0.0020020008087158203
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: 0.0 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 13
+  status: killed
+  tests_run: 28
+  time: 0.0010013580322265625
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: 0.07951728986183142 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: AOR
+  number: 14
+  status: killed
+  tests_run: 28
+  time: 0.00099945068359375
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: AOR
+  number: 15
+  status: survived
+  tests_run: 40
+  time: 0.001999378204345703
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: AOR
+  number: 16
+  status: survived
+  tests_run: 40
+  time: 0.0009987354278564453
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: AOR
+  number: 17
+  status: survived
+  tests_run: 40
+  time: 0.0010006427764892578
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 15, in test_midpoint\n    self.assertEqual(Misc_function.midpoint(0, 4,\
+    \ 0, 8), (0, 6))\nAssertionError: Tuples differ: (0, -2) != (0, 6)\n\nFirst differing\
+    \ element 1:\n-2\n6\n\n- (0, -2)\n?     ^^\n\n+ (0, 6)\n?     ^\n\n"
+  killer: test_midpoint (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 18
+    operator: AOR
+  number: 18
+  status: killed
+  tests_run: 27
+  time: 0.0009996891021728516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 18
+    operator: AOR
+  number: 19
+  status: survived
+  tests_run: 40
+  time: 0.002001523971557617
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 15, in test_midpoint\n    self.assertEqual(Misc_function.midpoint(0, 4,\
+    \ 0, 8), (0, 6))\nAssertionError: Tuples differ: (0, 24) != (0, 6)\n\nFirst differing\
+    \ element 1:\n24\n6\n\n- (0, 24)\n?     ^^\n\n+ (0, 6)\n?     ^\n\n"
+  killer: test_midpoint (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 18
+    operator: AOR
+  number: 20
+  status: killed
+  tests_run: 27
+  time: 0.002000093460083008
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 23
+    operator: AOR
+  number: 21
+  status: survived
+  tests_run: 40
+  time: 0.0010030269622802734
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 18, in test_dist_for\n    self.assertEqual(Misc_function.distance_formula(4,\
+    \ 0, 0, 3), 5)\nAssertionError: 2.6457513110645907 != 5\n"
+  killer: test_dist_for (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 23
+    operator: AOR
+  number: 22
+  status: killed
+  tests_run: 25
+  time: 0.002001047134399414
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 23
+    operator: AOR
+  number: 23
+  status: survived
+  tests_run: 40
+  time: 0.0019996166229248047
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 24
+  status: survived
+  tests_run: 40
+  time: 0.002001047134399414
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 25
+  status: survived
+  tests_run: 40
+  time: 0.001962900161743164
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 26
+  status: survived
+  tests_run: 40
+  time: 0.001997709274291992
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 27
+  status: survived
+  tests_run: 40
+  time: 0.0009996891021728516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 28
+  status: survived
+  tests_run: 40
+  time: 0.001998424530029297
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 21, in test_in_circle\n    self.assertEqual(Misc_function.in_circle(2,\
+    \ 3, 5, 0, 0), True)\nAssertionError: False != True\n"
+  killer: test_in_circle (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 29
+  status: killed
+  tests_run: 26
+  time: 0.0009987354278564453
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 21, in test_in_circle\n    self.assertEqual(Misc_function.in_circle(2,\
+    \ 3, 5, 0, 0), True)\nAssertionError: False != True\n"
+  killer: test_in_circle (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: AOR
+  number: 30
+  status: killed
+  tests_run: 26
+  time: 0.001965045928955078
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 25, in test_angle_formula1\n    self.assertEqual(Misc_function.angle_formula(2,\
+    \ 3, 2, 7, 4, 0), 270)\n  File \"Misc_function\", line 42, in angle_formula\n\
+    ZeroDivisionError: division by zero\n"
+  killer: test_angle_formula1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 35
+    operator: AOR
+  number: 31
+  status: killed
+  tests_run: 19
+  time: 0.002996683120727539
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 101.30993247402021 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 32
+  status: killed
+  tests_run: 21
+  time: 0.0019638538360595703
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 45, in test_angle_formula6\n    self.assertEqual(Misc_function.angle_formula(3,\
+    \ 6, 5, 3, 2, 9), 56.309932474020215)\nAssertionError: 45.0 != 56.309932474020215\n"
+  killer: test_angle_formula6 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 33
+  status: killed
+  tests_run: 24
+  time: 0.0010001659393310547
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 262.8749836510982 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 34
+  status: killed
+  tests_run: 21
+  time: 0.0020339488983154297
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 146.30993247402023 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 35
+  status: killed
+  tests_run: 21
+  time: 0.0019974708557128906
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 180.00195786879084 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 36
+  status: killed
+  tests_run: 21
+  time: 0.0019991397857666016
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 180.0 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 37
+  status: killed
+  tests_run: 21
+  time: 0.0010368824005126953
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 28835394.269218933 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 38
+  status: killed
+  tests_run: 21
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 243.0 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 39
+  status: killed
+  tests_run: 21
+  time: 0.001001596450805664
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 806.0778500855893 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 42
+    operator: AOR
+  number: 40
+  status: killed
+  tests_run: 21
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 52, in test_prox_2\n    self.assertEqual(Misc_function.proximity(2, 5,\
+    \ 12, 4), True)\nAssertionError: False != True\n"
+  killer: test_prox_2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: AOR
+  number: 41
+  status: killed
+  tests_run: 33
+  time: 0.0020020008087158203
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 79, in test_prox_11\n    self.assertEqual(Misc_function.proximity(9, 23,\
+    \ 34, 11), True)\nAssertionError: False != True\n"
+  killer: test_prox_11 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: AOR
+  number: 42
+  status: killed
+  tests_run: 32
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 76, in test_prox_10\n    self.assertEqual(Misc_function.proximity(42, 15,\
+    \ 31, 11), True)\nAssertionError: False != True\n"
+  killer: test_prox_10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: AOR
+  number: 43
+  status: killed
+  tests_run: 31
+  time: 0.002001523971557617
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 123, in test_ang_av1\n    self.assertEqual(Misc_function.angle_avg(230,\
+    \ 240), 235)\nAssertionError: -5.0 != 235\n"
+  killer: test_ang_av1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 87
+    operator: AOR
+  number: 44
+  status: killed
+  tests_run: 1
+  time: 0.0009617805480957031
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 87
+    operator: AOR
+  number: 45
+  status: survived
+  tests_run: 40
+  time: 0.001961231231689453
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 123, in test_ang_av1\n    self.assertEqual(Misc_function.angle_avg(230,\
+    \ 240), 235)\nAssertionError: 940 != 235\n"
+  killer: test_ang_av1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 87
+    operator: AOR
+  number: 46
+  status: killed
+  tests_run: 1
+  time: 0.0010225772857666016
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 129, in test_ang_av3\n    self.assertEqual(Misc_function.angle_avg(270,\
+    \ 90), 0)\nAssertionError: 90.0 != 0\n"
+  killer: test_ang_av3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 89
+    operator: AOR
+  number: 47
+  status: killed
+  tests_run: 3
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 129, in test_ang_av3\n    self.assertEqual(Misc_function.angle_avg(270,\
+    \ 90), 0)\nAssertionError: 90.0 != 0\n"
+  killer: test_ang_av3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 89
+    operator: AOR
+  number: 48
+  status: killed
+  tests_run: 3
+  time: 0.000997781753540039
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 135, in test_ang_av5\n    self.assertEqual(Misc_function.angle_avg(170,\
+    \ 45), 287.5)\nAssertionError: 288 != 287.5\n"
+  killer: test_ang_av5 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 89
+    operator: AOR
+  number: 49
+  status: killed
+  tests_run: 5
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 129, in test_ang_av3\n    self.assertEqual(Misc_function.angle_avg(270,\
+    \ 90), 0)\nAssertionError: 90 != 0\n"
+  killer: test_ang_av3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 89
+    operator: AOR
+  number: 50
+  status: killed
+  tests_run: 3
+  time: 0.0010006427764892578
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 135, in test_ang_av5\n    self.assertEqual(Misc_function.angle_avg(170,\
+    \ 45), 287.5)\nAssertionError: -72.5 != 287.5\n"
+  killer: test_ang_av5 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 90
+    operator: AOR
+  number: 51
+  status: killed
+  tests_run: 5
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 135, in test_ang_av5\n    self.assertEqual(Misc_function.angle_avg(170,\
+    \ 45), 287.5)\nAssertionError: 432.5 != 287.5\n"
+  killer: test_ang_av5 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 91
+    operator: AOR
+  number: 52
+  status: killed
+  tests_run: 5
+  time: 0.0010001659393310547
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 135, in test_ang_av5\n    self.assertEqual(Misc_function.angle_avg(170,\
+    \ 45), 287.5)\nAssertionError: 522.5 != 287.5\n"
+  killer: test_ang_av5 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 91
+    operator: AOR
+  number: 53
+  status: killed
+  tests_run: 5
+  time: 0.0010013580322265625
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 129, in test_ang_av3\n    self.assertEqual(Misc_function.angle_avg(270,\
+    \ 90), 0)\nAssertionError: 180.0 != 0\n"
+  killer: test_ang_av3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 93
+    operator: AOR
+  number: 54
+  status: killed
+  tests_run: 3
+  time: 0.0010006427764892578
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: -116.56505117707799 !=\
+    \ 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 45
+    operator: ASR
+  number: 55
+  status: killed
+  tests_run: 21
+  time: 0.0010006427764892578
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 37, in test_angle_formula4\n    self.assertEqual(Misc_function.angle_formula(8,\
+    \ 6, 5, 3, 2, 9), 315.0)\nAssertionError: -405.0 != 315.0\n"
+  killer: test_angle_formula4 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: ASR
+  number: 56
+  status: killed
+  tests_run: 22
+  time: 0.00099945068359375
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: -2.5 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 9
+    operator: COI
+  number: 57
+  status: killed
+  tests_run: 28
+  time: 0.0019989013671875
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 21, in test_in_circle\n    self.assertEqual(Misc_function.in_circle(2,\
+    \ 3, 5, 0, 0), True)\nAssertionError: False != True\n"
+  killer: test_in_circle (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: COI
+  number: 58
+  status: killed
+  tests_run: 26
+  time: 0.002001523971557617
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 25, in test_angle_formula1\n    self.assertEqual(Misc_function.angle_formula(2,\
+    \ 3, 2, 7, 4, 0), 270)\n  File \"Misc_function\", line 42, in angle_formula\n\
+    ZeroDivisionError: division by zero\n"
+  killer: test_angle_formula1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 35
+    operator: COI
+  number: 59
+  status: killed
+  tests_run: 19
+  time: 0.002001047134399414
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 25, in test_angle_formula1\n    self.assertEqual(Misc_function.angle_formula(2,\
+    \ 3, 2, 7, 4, 0), 270)\nAssertionError: 90 != 270\n"
+  killer: test_angle_formula1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 36
+    operator: COI
+  number: 60
+  status: killed
+  tests_run: 19
+  time: 0.001519918441772461
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 63.43494882292201 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 44
+    operator: COI
+  number: 61
+  status: killed
+  tests_run: 21
+  time: 0.00099945068359375
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 603.434948822922 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: COI
+  number: 62
+  status: killed
+  tests_run: 21
+  time: 0.0010008811950683594
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 49, in test_prox_1\n    self.assertEqual(Misc_function.proximity(5, 8,\
+    \ 12, 22), True)\nAssertionError: False != True\n"
+  killer: test_prox_1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: COI
+  number: 63
+  status: killed
+  tests_run: 30
+  time: 0.0020003318786621094
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 110, in test_ang_in10\n    self.assertEqual(Misc_function.angle_inside(75,\
+    \ 180, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 74
+    operator: COI
+  number: 64
+  status: killed
+  tests_run: 7
+  time: 0.0009996891021728516
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 83, in test_ang_in1\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: COI
+  number: 65
+  status: killed
+  tests_run: 6
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 83, in test_ang_in1\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: COI
+  number: 66
+  status: killed
+  tests_run: 6
+  time: 0.0009989738464355469
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 110, in test_ang_in10\n    self.assertEqual(Misc_function.angle_inside(75,\
+    \ 180, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 80
+    operator: COI
+  number: 67
+  status: killed
+  tests_run: 7
+  time: 0.0009987354278564453
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 123, in test_ang_av1\n    self.assertEqual(Misc_function.angle_avg(230,\
+    \ 240), 235)\nAssertionError: 55.0 != 235\n"
+  killer: test_ang_av1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 86
+    operator: COI
+  number: 68
+  status: killed
+  tests_run: 1
+  time: 0.0009996891021728516
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 129, in test_ang_av3\n    self.assertEqual(Misc_function.angle_avg(270,\
+    \ 90), 0)\nAssertionError: 360.0 != 0\n"
+  killer: test_ang_av3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 90
+    operator: COI
+  number: 69
+  status: killed
+  tests_run: 3
+  time: 0.0009989738464355469
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 45, in test_angle_formula6\n    self.assertEqual(Misc_function.angle_formula(3,\
+    \ 6, 5, 3, 2, 9), 56.309932474020215)\nAssertionError: 416.30993247402023 != 56.309932474020215\n"
+  killer: test_angle_formula6 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: LCR
+  number: 70
+  status: killed
+  tests_run: 24
+  time: 0.0019655227661132812
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 76, in test_prox_10\n    self.assertEqual(Misc_function.proximity(42, 15,\
+    \ 31, 11), True)\nAssertionError: False != True\n"
+  killer: test_prox_10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: LCR
+  number: 71
+  status: killed
+  tests_run: 31
+  time: 0.0009989738464355469
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 83, in test_ang_in1\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: LCR
+  number: 72
+  status: killed
+  tests_run: 6
+  time: 0.00099945068359375
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 83, in test_ang_in1\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: LCR
+  number: 73
+  status: killed
+  tests_run: 6
+  time: 0.0009992122650146484
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 110, in test_ang_in10\n    self.assertEqual(Misc_function.angle_inside(75,\
+    \ 180, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 80
+    operator: LCR
+  number: 74
+  status: killed
+  tests_run: 7
+  time: 0.0009965896606445312
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 8, in test_perc1\n    self.assertEqual(Misc_function.calc_percentage([18,\
+    \ 9]), 97.5)\nAssertionError: -2.5 != 97.5\n"
+  killer: test_perc1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 9
+    operator: ROR
+  number: 75
+  status: killed
+  tests_run: 28
+  time: 0.002003192901611328
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 9
+    operator: ROR
+  number: 76
+  status: survived
+  tests_run: 40
+  time: 0.0019979476928710938
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 21, in test_in_circle\n    self.assertEqual(Misc_function.in_circle(2,\
+    \ 3, 5, 0, 0), True)\nAssertionError: False != True\n"
+  killer: test_in_circle (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: ROR
+  number: 77
+  status: killed
+  tests_run: 26
+  time: 0.0009992122650146484
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: ROR
+  number: 78
+  status: survived
+  tests_run: 40
+  time: 0.0009989738464355469
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 25, in test_angle_formula1\n    self.assertEqual(Misc_function.angle_formula(2,\
+    \ 3, 2, 7, 4, 0), 270)\n  File \"Misc_function\", line 42, in angle_formula\n\
+    ZeroDivisionError: division by zero\n"
+  killer: test_angle_formula1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 35
+    operator: ROR
+  number: 79
+  status: killed
+  tests_run: 19
+  time: 0.0020003318786621094
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 25, in test_angle_formula1\n    self.assertEqual(Misc_function.angle_formula(2,\
+    \ 3, 2, 7, 4, 0), 270)\nAssertionError: 90 != 270\n"
+  killer: test_angle_formula1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 36
+    operator: ROR
+  number: 80
+  status: killed
+  tests_run: 19
+  time: 0.00099945068359375
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 36
+    operator: ROR
+  number: 81
+  status: survived
+  tests_run: 40
+  time: 0.0009603500366210938
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 33, in test_angle_formula3\n    self.assertEqual(Misc_function.angle_formula(4,\
+    \ 3, 2, 7, 6, 4), 243.43494882292202)\nAssertionError: 63.43494882292201 != 243.43494882292202\n"
+  killer: test_angle_formula3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 44
+    operator: ROR
+  number: 82
+  status: killed
+  tests_run: 21
+  time: 0.002001047134399414
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 41, in test_angle_formula5\n    self.assertEqual(Misc_function.angle_formula(2,\
+    \ 6, 5, 3, 2, 9), 45.0)\nAssertionError: 225.0 != 45.0\n"
+  killer: test_angle_formula5 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 44
+    operator: ROR
+  number: 83
+  status: killed
+  tests_run: 23
+  time: 0.0009996891021728516
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 37, in test_angle_formula4\n    self.assertEqual(Misc_function.angle_formula(8,\
+    \ 6, 5, 3, 2, 9), 315.0)\nAssertionError: -45.0 != 315.0\n"
+  killer: test_angle_formula4 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: ROR
+  number: 84
+  status: killed
+  tests_run: 22
+  time: 0.0019986629486083984
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: ROR
+  number: 85
+  status: survived
+  tests_run: 40
+  time: 0.002001047134399414
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 37, in test_angle_formula4\n    self.assertEqual(Misc_function.angle_formula(8,\
+    \ 6, 5, 3, 2, 9), 315.0)\nAssertionError: -45.0 != 315.0\n"
+  killer: test_angle_formula4 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: ROR
+  number: 86
+  status: killed
+  tests_run: 22
+  time: 0.0009987354278564453
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: ROR
+  number: 87
+  status: survived
+  tests_run: 40
+  time: 0.0009975433349609375
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 52, in test_prox_2\n    self.assertEqual(Misc_function.proximity(2, 5,\
+    \ 12, 4), True)\nAssertionError: False != True\n"
+  killer: test_prox_2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: ROR
+  number: 88
+  status: killed
+  tests_run: 33
+  time: 0.0019958019256591797
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 73, in test_prox_9\n    self.assertEqual(Misc_function.proximity(21, 24,\
+    \ 15, 3), True)\nAssertionError: False != True\n"
+  killer: test_prox_9 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: ROR
+  number: 89
+  status: killed
+  tests_run: 40
+  time: 0.0019974708557128906
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 70, in test_prox_8\n    self.assertEqual(Misc_function.proximity(23, 13,\
+    \ 34, 7), False)\nAssertionError: True != False\n"
+  killer: test_prox_8 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: ROR
+  number: 90
+  status: killed
+  tests_run: 39
+  time: 0.001996755599975586
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 79, in test_prox_11\n    self.assertEqual(Misc_function.proximity(9, 23,\
+    \ 34, 11), True)\nAssertionError: False != True\n"
+  killer: test_prox_11 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: ROR
+  number: 91
+  status: killed
+  tests_run: 32
+  time: 0.000997781753540039
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 70, in test_prox_8\n    self.assertEqual(Misc_function.proximity(23, 13,\
+    \ 34, 7), False)\nAssertionError: True != False\n"
+  killer: test_prox_8 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: ROR
+  number: 92
+  status: killed
+  tests_run: 39
+  time: 0.0019986629486083984
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 76, in test_prox_10\n    self.assertEqual(Misc_function.proximity(42, 15,\
+    \ 31, 11), True)\nAssertionError: False != True\n"
+  killer: test_prox_10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: ROR
+  number: 93
+  status: killed
+  tests_run: 31
+  time: 0.0020024776458740234
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 110, in test_ang_in10\n    self.assertEqual(Misc_function.angle_inside(75,\
+    \ 180, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 74
+    operator: ROR
+  number: 94
+  status: killed
+  tests_run: 7
+  time: 0.0010037422180175781
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 113, in test_ang_in11\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 220, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in11 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 74
+    operator: ROR
+  number: 95
+  status: killed
+  tests_run: 8
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 86, in test_ang_in2\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 135), False)\nAssertionError: True != False\n"
+  killer: test_ang_in2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 96
+  status: killed
+  tests_run: 11
+  time: 0.0010313987731933594
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 83, in test_ang_in1\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 97
+  status: killed
+  tests_run: 6
+  time: 0.001032114028930664
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 89, in test_ang_in3\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 240), True)\nAssertionError: False != True\n"
+  killer: test_ang_in3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 98
+  status: killed
+  tests_run: 12
+  time: 0.001998424530029297
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 92, in test_ang_in4\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 360), True)\nAssertionError: False != True\n"
+  killer: test_ang_in4 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 99
+  status: killed
+  tests_run: 13
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 83, in test_ang_in1\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: ROR
+  number: 100
+  status: killed
+  tests_run: 6
+  time: 0.0009982585906982422
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 86, in test_ang_in2\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 135), False)\nAssertionError: True != False\n"
+  killer: test_ang_in2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: ROR
+  number: 101
+  status: killed
+  tests_run: 11
+  time: 0.0009968280792236328
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 98, in test_ang_in6\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 90), True)\nAssertionError: False != True\n"
+  killer: test_ang_in6 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: ROR
+  number: 102
+  status: killed
+  tests_run: 15
+  time: 0.0019958019256591797
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 101, in test_ang_in7\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 135, 0), True)\nAssertionError: False != True\n"
+  killer: test_ang_in7 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: ROR
+  number: 103
+  status: killed
+  tests_run: 16
+  time: 0.002032041549682617
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 104, in test_ang_in8\n    self.assertEqual(Misc_function.angle_inside(75,\
+    \ 180, 130), True)\nAssertionError: False != True\n"
+  killer: test_ang_in8 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 80
+    operator: ROR
+  number: 104
+  status: killed
+  tests_run: 17
+  time: 0.0019958019256591797
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 119, in test_ang_in14\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 240, 220), False)\nAssertionError: True != False\n"
+  killer: test_ang_in14 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 80
+    operator: ROR
+  number: 105
+  status: killed
+  tests_run: 10
+  time: 0.0019989013671875
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 110, in test_ang_in10\n    self.assertEqual(Misc_function.angle_inside(75,\
+    \ 180, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in10 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 80
+    operator: ROR
+  number: 106
+  status: killed
+  tests_run: 7
+  time: 0.0010035037994384766
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 116, in test_ang_in13\n    self.assertEqual(Misc_function.angle_inside(220,\
+    \ 240, 240), False)\nAssertionError: True != False\n"
+  killer: test_ang_in13 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 80
+    operator: ROR
+  number: 107
+  status: killed
+  tests_run: 9
+  time: 0.0009999275207519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 123, in test_ang_av1\n    self.assertEqual(Misc_function.angle_avg(230,\
+    \ 240), 235)\nAssertionError: 55.0 != 235\n"
+  killer: test_ang_av1 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 86
+    operator: ROR
+  number: 108
+  status: killed
+  tests_run: 1
+  time: 0.0010004043579101562
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 126, in test_ang_av2\n    self.assertEqual(Misc_function.angle_avg(230,\
+    \ 230), 230)\nAssertionError: 50.0 != 230\n"
+  killer: test_ang_av2 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 86
+    operator: ROR
+  number: 109
+  status: killed
+  tests_run: 2
+  time: 0.000997304916381836
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 132, in test_ang_av4\n    self.assertEqual(Misc_function.angle_avg(220,\
+    \ 150), 5.0)\nAssertionError: 365.0 != 5.0\n"
+  killer: test_ang_av4 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 90
+    operator: ROR
+  number: 110
+  status: killed
+  tests_run: 4
+  time: 0.0009989738464355469
+- exception_traceback: "Traceback (most recent call last):\n  File \"C:\\Users\\dl_va\\\
+    OneDrive\\Desktop\\padhai 7\\ST\\project\\ST_Proj\\functionalities\\.\\test1.py\"\
+    , line 129, in test_ang_av3\n    self.assertEqual(Misc_function.angle_avg(270,\
+    \ 90), 0)\nAssertionError: 360.0 != 0\n"
+  killer: test_ang_av3 (test1.UnitTest)
+  module: *id001
+  mutations:
+  - lineno: 90
+    operator: ROR
+  number: 111
+  status: killed
+  tests_run: 3
+  time: 0.0010061264038085938
+number_of_tests: 40
+targets:
+- Misc_function
+tests:
+- name: test1
+  target: null
+  time: 0.0019989013671875
+time_stats:
+  create_mutant_module: 0.06002950668334961
+  create_target_ast: 0.004742622375488281
+  mutate_module: 6.100399971008301
+  run_tests_with_mutant: 0.23960614204406738
+total_time: 7.465685129165649
